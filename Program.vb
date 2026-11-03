@@ -14,6 +14,7 @@ Module Program
             Console.WriteLine("5. Condition")
             Console.WriteLine("6. Array")
             Console.WriteLine("7. List")
+            Console.WriteLine("8. Dictionary")
             Console.WriteLine("0. Exit")
             Console.Write("Select: ")
 
@@ -32,6 +33,8 @@ Module Program
                     ExampleArray.Run()
                 Case "7"
                     ExampleList.Run()
+                Case "8"
+                    ExampleDictionary.Run()
                 Case "0"
                     Exit Do
                 Case Else
