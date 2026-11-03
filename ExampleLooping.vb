@@ -1,8 +1,13 @@
 ﻿Module ExampleLooping
     Sub Run()
-        For i = 1 To 5
-            Console.WriteLine(i)
+        Console.Write("Please input a start number: ")
+        Dim StartNumber As Integer = Integer.Parse(Console.ReadLine())
+        Console.Write("Please input an end number: ")
+        Dim EndNumber As Integer = Integer.Parse(Console.ReadLine())
+
+        For loopindex As Integer = StartNumber To EndNumber
+            Console.WriteLine("Loop index: " & loopindex)
         Next
-        Console.WriteLine("Loop selesai")
+
     End Sub
 End Module
