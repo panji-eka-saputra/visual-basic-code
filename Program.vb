@@ -12,6 +12,7 @@ Module Program
             Console.WriteLine("3. Variable")
             Console.WriteLine("4. Operator")
             Console.WriteLine("5. Condition")
+            Console.WriteLine("6. Array")
             Console.WriteLine("0. Exit")
             Console.Write("Select: ")
 
@@ -26,6 +27,8 @@ Module Program
                     ExampleOperator.Run()
                 Case "5"
                     ExampleCondition.Run()
+                Case "6"
+                    ExampleArray.Run()
                 Case "0"
                     Exit Do
                 Case Else
