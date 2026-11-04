@@ -16,6 +16,8 @@ Module Program
             Console.WriteLine("7. List")
             Console.WriteLine("8. Dictionary")
             Console.WriteLine("9. String")
+            Console.WriteLine("10. Date")
+            Console.WriteLine("11. Sub Function")
             Console.WriteLine("0. Exit")
             Console.Write("Select: ")
 
@@ -38,6 +40,10 @@ Module Program
                     ExampleDictionary.Run()
                 Case "9"
                     ExampleString.Run()
+                Case "10"
+                    ExampleDate.Run()
+                Case "11"
+                    ExampleSubFunction.Run()
                 Case "0"
                     Exit Do
                 Case Else
