@@ -18,6 +18,7 @@ Module Program
             Console.WriteLine("9. String")
             Console.WriteLine("10. Date")
             Console.WriteLine("11. Sub Function")
+            Console.WriteLine("12. OOP")
             Console.WriteLine("0. Exit")
             Console.Write("Select: ")
 
@@ -44,6 +45,8 @@ Module Program
                     ExampleDate.Run()
                 Case "11"
                     ExampleSubFunction.Run()
+                Case "12"
+                    OOP.Run()
                 Case "0"
                     Exit Do
                 Case Else
